@@ -9,5 +9,5 @@ numbers.sort()
 print(f"Minimum = {numbers[0]}")
 print(f"Maximum = {numbers[len(numbers)-1]}")
 print(f"Mean = {sum(numbers)/len(numbers)}")
-print(f"Median = {numbers[(len(numbers)-1)//2]}")
+print(f"Median = {numbers[(len(numbers))//2]}")
     
