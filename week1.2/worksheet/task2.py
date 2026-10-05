@@ -1,12 +1,9 @@
 from util import read_numbers
 import sys
 
-def fract(a):
-    return a-int(a)
-
+fract = lambda a : a-int(a)
 numbers = read_numbers()
-if numbers == []:
-    sys.exit("Error: no numbers provided")
+if not numbers: sys.exit("Error: no numbers provided")
 
 numbers.sort()
 print(f"Minimum = {numbers[0]}")
