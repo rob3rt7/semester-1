@@ -14,6 +14,5 @@ print(f"Maximum = {numbers[len(numbers)-1]}")
 print(f"Mean = {sum(numbers)/len(numbers)}")
 median = numbers[(len(numbers)-1)//2]*(1.0-fract((len(numbers)-1)/2))
 median += numbers[min(((len(numbers)-1)//2)+1, len(numbers)-1)]*(fract((len(numbers)-1)/2))  
-
 print(f"Median = {median}")
     
