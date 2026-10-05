@@ -3,7 +3,12 @@
 # You are going to write a very simple program:
 
 # Ask a user to enter two numbers (one per input)
-
+try:
+    num1 = float(input("Please enter a number "))
+    num2 = float(input("Please enter a second number "))
+    print(f"result = {num1*num2}")
+except:
+    print("That is not a number")
 # multiply those numbers together
 
 # print out the result
